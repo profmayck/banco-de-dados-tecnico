@@ -81,7 +81,6 @@ SELECT DISTINCT Autor FROM livros order by Autor;
 
 SELECT * FROM Autor;
 
-DROP TABLE Autor_Livro;
 CREATE TABLE Autor_Livro(
 	id_livro int,
     id_autor tinyint unsigned,
